@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <menuitem
+        id="appointments_root"
+        name="Apontamentos"
+        sequence="10"
+        web_icon="barber_shop,static/description/icon.png"
+        groups="base.group_user"/>
+
+    <menuitem
+        id="appointments_menu_root"
+        name="Appointments"
+        parent="appointments_root"
+        sequence="1"/>
+
+    <menuitem
+        id="menu_appointments"
+        name="Lista de Apontamentos"
+        parent="appointments_menu_root"
+        sequence="1"
+        action="appointments_bs_action"/>
+</odoo>
