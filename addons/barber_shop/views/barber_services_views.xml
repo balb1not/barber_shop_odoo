@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="view_barber_services_form" model="ir.ui.view">
+            <field name="name">barber.services.form</field>
+            <field name="model">barber.services</field>
+            <field name="arch" type="xml">
+                <form string="Barber Services">
+                    <sheet>
+                        <group>
+                            <field name="name" required="1"/>
+                            <field name="price" required="1"/>
+                            <field name="duration" widget="float_time"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_barber_services_tree" model="ir.ui.view">
+            <field name="name">barber.services.tree</field>
+            <field name="model">barber.services</field>
+            <field name="arch" type="xml">
+                <tree string="Barber Services">
+                    <field name="name"/>
+                    <field name="price"/>
+                    <field name="duration"  widget="float_time"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="barber_services_action" model="ir.actions.act_window">
+            <field name="name">Barber Services</field>
+            <field name="res_model">barber.services</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+    </data>
+</odoo>

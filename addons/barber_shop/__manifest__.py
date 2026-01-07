@@ -12,7 +12,8 @@
 
     'data':[
         'security/ir.model.access.csv',
-        'views/appointments_bs_views.xml',
+        'views/barber_appointment_views.xml',
+        'views/barber_services_views.xml',
         'views/menu_views.xml'
     ],
 }

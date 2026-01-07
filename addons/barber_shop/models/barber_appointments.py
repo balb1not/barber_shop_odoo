@@ -1,7 +1,7 @@
 from odoo import fields, models
 
-class MainBarberShop(models.Model):
-    _name = 'main.barber.shop'
+class BarberAppointments(models.Model):
+    _name = 'barber.appointments'
     _description = 'Main Barber Shop'
 
     name = fields.Char(string='Name')

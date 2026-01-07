@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-
     <data>
-        <record id="appointments_bs_tree_view" model="ir.ui.view">
-            <field name="name">appointments.bs.tree.view</field>
-            <field name="model">main.barber.shop</field>
+        <record id="barber_appointments_tree_view" model="ir.ui.view">
+            <field name="name">barber.appointments.tree.view</field>
+            <field name="model">barber.appointments</field>
             <field name="arch" type="xml">
                 <tree delete="0">
                     <field name="name"/>
@@ -12,9 +11,9 @@
             </field>
         </record>
 
-        <record id="appointments_bs_form_view" model="ir.ui.view">
-            <field name="name">appointments.bs.tree.view</field>
-            <field name="model">main.barber.shop</field>
+        <record id="barber_appointments_form_view" model="ir.ui.view">
+            <field name="name">barber.appointments.form.view</field>
+            <field name="model">barber.appointments</field>
             <field name="arch" type="xml">
                 <form>
                     <sheet string="Appointments">
@@ -26,9 +25,9 @@
             </field>
         </record>
 
-        <record id="appointments_bs_action" model="ir.actions.act_window">
+        <record id="barber_appointments_action" model="ir.actions.act_window">
             <field name="name">Appointments</field>
-            <field name="res_model">main.barber.shop</field>
+            <field name="res_model">barber.appointments</field>
             <field name="view_mode">tree,form</field>
             <field name="type">ir.actions.act_window</field>    
         </record>

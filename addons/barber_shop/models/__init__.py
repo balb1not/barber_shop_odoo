@@ -1,1 +1,2 @@
-from . import main_barber_shop
+from . import barber_appointments
+from . import barber_services

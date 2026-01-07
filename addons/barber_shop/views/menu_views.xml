@@ -2,7 +2,7 @@
 <odoo>
     <menuitem
         id="appointments_root"
-        name="Apontamentos"
+        name="Barber Shop"
         sequence="10"
         web_icon="barber_shop,static/description/icon.png"
         groups="base.group_user"/>
@@ -14,9 +14,15 @@
         sequence="1"/>
 
     <menuitem
-        id="menu_appointments"
-        name="Lista de Apontamentos"
+        id="appointments_menu"
+        name="Appointments"
         parent="appointments_menu_root"
         sequence="1"
-        action="appointments_bs_action"/>
+        action="barber_appointments_action"/>
+    <menuitem
+        id="barber_services_menu"
+        name="Barber Services"
+        parent="appointments_menu_root"
+        sequence="2"
+        action="barber_services_action"/>
 </odoo>
