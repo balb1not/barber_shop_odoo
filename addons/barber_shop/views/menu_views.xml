@@ -7,6 +7,21 @@
         web_icon="barber_shop,static/description/icon.png"
         groups="base.group_user"/>
 
+
+    <menuitem
+        id="configuration_menu_root"
+        name="Configuration"
+        sequence="10"
+        parent="appointments_root"/>
+
+
+    <menuitem
+        id="barber_barber_menu"
+        name="Profissionals"
+        sequence="10"
+        action="barber_barber_action"
+        parent="configuration_menu_root"/>
+
     <menuitem
         id="appointments_menu_root"
         name="Appointments"

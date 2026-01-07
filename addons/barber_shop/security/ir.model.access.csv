@@ -2,3 +2,4 @@ id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 
 access_main_barber_shop,barber_appointments,model_barber_appointments,base.group_user,1,1,1,1
 access_barber_services,barber_services,model_barber_services,base.group_user,1,1,1,1
+access_barber_barber,barber_barber,model_barber_barber,base.group_user,1,1,1,1

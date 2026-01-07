@@ -2,7 +2,7 @@ from odoo import fields,models
 
 class BarberServices(models.Model):
     _name = 'barber.services'
-    _description = 'Barber Services'
+    _description = 'Module related to the services of the barbe shop.'
 
     
     name = fields.Char(string='Service Name')

@@ -47,5 +47,31 @@ msgstr "Barbearia"
 
 #. module: barber_shop
 #: model:ir.model.fields,field_description:barber_shop.field_barber_appointments__name
+#: model:ir.model.fields,field_description:barber_shop.field_barber_barber__name
 msgid "Name"
 msgstr "Nome"
+
+#. module: barber_shop
+#: model:ir.model.fields,field_description:barber_shop.field_barber_barber__active
+msgid "Active"
+msgstr "Ativo"
+
+#. module: barber_shop
+#: model:ir.ui.menu,name:barber_shop.appointments_menu
+msgid "Appointments"
+msgstr "Apontamentos"
+
+#. module: barber_shop
+#: model:ir.ui.menu,name:barber_shop.barber_barber_menu
+msgid "Profissionals"
+msgstr "Profissionais"
+
+#. module: barber_shop
+#: model:ir.ui.menu,name:barber_shop.configuration_menu_root
+msgid "Configuration"
+msgstr "Configurações"
+
+#. module: barber_shop
+#: model:ir.actions.act_window,name:barber_shop.barber_barber_action
+msgid "Barbers"
+msgstr "Barbeiros"
