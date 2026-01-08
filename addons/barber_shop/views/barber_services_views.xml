@@ -25,7 +25,7 @@
                 <tree string="Barber Services">
                     <field name="name"/>
                     <field name="price"/>
-                    <field name="duration"  widget="float_time"/>
+                    <field name="duration" widget="float_time"/>
                 </tree>
             </field>
         </record>

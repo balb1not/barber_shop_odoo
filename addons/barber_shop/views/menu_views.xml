@@ -16,10 +16,10 @@
 
     <menuitem 
         id="customer_menu"
-        name="Customer"
-        action="base.action_partner_customer_form"
-        sequence="2"
-        parent="configuration_menu_root"/>
+            name="Customer"
+            action="base.action_partner_customer_form"
+            sequence="2"
+            parent="configuration_menu_root"/>
 
 
     <menuitem
