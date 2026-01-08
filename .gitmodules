@@ -1,0 +1,3 @@
+[submodule "ad./addons/third-party/muk_addons"]
+	path = ad./addons/third-party/muk_addons
+	url = https://github.com/muk-it/muk_web.git

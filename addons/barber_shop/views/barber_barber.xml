@@ -32,8 +32,5 @@
             <field name="res_model">barber.barber</field>
             <field name="view_mode">tree,form</field>
         </record>
-
     </data>
-    
-
 </odoo>

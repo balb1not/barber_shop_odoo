@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <menuitem
-        id="appointments_root"
+        id="scheduling_root"
         name="Barber Shop"
         sequence="10"
         web_icon="barber_shop,static/description/icon.png"
@@ -12,7 +12,14 @@
         id="configuration_menu_root"
         name="Configuration"
         sequence="10"
-        parent="appointments_root"/>
+        parent="scheduling_root"/>
+
+    <menuitem 
+        id="customer_menu"
+        name="Customer"
+        action="base.action_partner_customer_form"
+        sequence="2"
+        parent="configuration_menu_root"/>
 
 
     <menuitem
@@ -23,21 +30,21 @@
         parent="configuration_menu_root"/>
 
     <menuitem
-        id="appointments_menu_root"
-        name="Appointments"
-        parent="appointments_root"
+        id="scheduling_menu_root"
+        name="Scheduling"
+        parent="scheduling_root"
         sequence="1"/>
 
     <menuitem
-        id="appointments_menu"
-        name="Appointments"
-        parent="appointments_menu_root"
+        id="scheduling_menu"
+        name="Scheduling"
+        parent="scheduling_menu_root"
         sequence="1"
-        action="barber_appointments_action"/>
+        action="barber_scheduling_action"/>
     <menuitem
         id="barber_services_menu"
         name="Barber Services"
-        parent="appointments_menu_root"
+        parent="scheduling_menu_root"
         sequence="2"
         action="barber_services_action"/>
 </odoo>

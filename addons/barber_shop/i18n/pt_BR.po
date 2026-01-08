@@ -30,23 +30,29 @@ msgstr "Duração"
 #. module: barber_shop
 #: model:ir.ui.menu,name:barber_shop.barber_services_menu
 #: model:ir.actions.act_window,name:barber_shop.barber_services_action
+#: model:ir.model.fields,field_description:barber_shop.field_barber_scheduling__service_ids
 msgid "Barber Services"
 msgstr "Serviços"
 
 #. module: barber_shop
-#: model:ir.ui.menu,name:barber_shop.appointments_menu
-#: model:ir.ui.menu,name:barber_shop.appointments_menu_root
-#: model:ir.actions.act_window,name:barber_shop.barber_appointments_action
-msgid "Appointments"
-msgstr "Apontamentos"
+#: model:ir.model.fields,field_description:barber_shop.field_barber_scheduling__start_time
+msgid "Start Time"
+msgstr "Horário de Início"
 
 #. module: barber_shop
-#: model:ir.ui.menu,name:barber_shop.appointments_root
+#: model:ir.ui.menu,name:barber_shop.scheduling_menu
+#: model:ir.ui.menu,name:barber_shop.scheduling_menu_root
+#: model:ir.actions.act_window,name:barber_shop.barber_scheduling_action
+msgid "Schedulings"
+msgstr "Agendamentos"
+
+#. module: barber_shop
+#: model:ir.ui.menu,name:barber_shop.scheduling_root
 msgid "Barber Shop"
 msgstr "Barbearia"
 
 #. module: barber_shop
-#: model:ir.model.fields,field_description:barber_shop.field_barber_appointments__name
+#: model:ir.model.fields,field_description:barber_shop.field_barber_scheduling__name
 #: model:ir.model.fields,field_description:barber_shop.field_barber_barber__name
 msgid "Name"
 msgstr "Nome"
@@ -57,9 +63,9 @@ msgid "Active"
 msgstr "Ativo"
 
 #. module: barber_shop
-#: model:ir.ui.menu,name:barber_shop.appointments_menu
-msgid "Appointments"
-msgstr "Apontamentos"
+#: model:ir.ui.menu,name:barber_shop.scheduling_menu
+msgid "Schedulings"
+msgstr "Agendamentos"
 
 #. module: barber_shop
 #: model:ir.ui.menu,name:barber_shop.barber_barber_menu
@@ -71,7 +77,23 @@ msgstr "Profissionais"
 msgid "Configuration"
 msgstr "Configurações"
 
+
+#. module: barber_shop
+#: model:ir.ui.menu,name:barber_shop.customer_menu
+msgid "Customer"
+msgstr "Clientes"
+
 #. module: barber_shop
 #: model:ir.actions.act_window,name:barber_shop.barber_barber_action
 msgid "Barbers"
 msgstr "Barbeiros"
+
+#. module: barber_shop
+#: model:ir.model.fields,field_description:barber_shop.field_barber_scheduling__barber_id
+msgid "Barber"
+msgstr "Barbeiro"
+
+#. module: barber_shop
+#: model:ir.model.fields,field_description:barber_shop.field_barber_scheduling__customer_id
+msgid "Client"
+msgstr "Cliente"

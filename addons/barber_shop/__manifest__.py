@@ -8,11 +8,11 @@
     """,
     'author': "Frederico",
     'version': '0.1',
-    'depends': ['base'],
+    'depends': ['base', 'muk_web_theme'],
 
     'data':[
         'security/ir.model.access.csv',
-        'views/barber_appointment_views.xml',
+        'views/barber_scheduling_views.xml',
         'views/barber_services_views.xml',
         'views/barber_barber.xml',
         'views/menu_views.xml'
